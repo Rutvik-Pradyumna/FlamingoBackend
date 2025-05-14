@@ -25,12 +25,12 @@ app.post('/appointment', (req,res) => {
     })
     let mailOptions = {
         from : process.env.MAIL_ID,
-        to : 'pradyumnarutvik@gmail.com',
+        to : 'mikkilinenianjali03@gmail.com',
         subject : 'Mail From Flamingo',
         html : `<div>
                     <p>${name}</p>
                     <p>${email}</p>
-                    <p>${subject}</p>
+                    <p>Subject : ${subject}</p>
                     <p>${message}</p>
                 </div>`
     }
